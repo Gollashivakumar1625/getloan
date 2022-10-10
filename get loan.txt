@@ -1,0 +1,12 @@
+// SPDX-License-Identifier: GPL-3.0
+
+pragma solidity ^0.8.0;
+ contract getloan(uint _age) public view returns(bool) {
+//returns gteloan;
+     uint loanage = 18;
+     if (_age>= loanage) {
+         returns "get laon";
+    }else(_age<= loanage){
+        return "notget loan";
+    }
+ } 
